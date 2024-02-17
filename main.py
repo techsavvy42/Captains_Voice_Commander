@@ -254,7 +254,7 @@ def get_available_inputs():
     ordered_keys = single_chars + remaining_keys
 
     # Add the custom command "Open website url"
-    ordered_keys.append("Open website url")
+    ordered_keys.append("Paste/Add website url")
     return ordered_keys
 
 
