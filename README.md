@@ -6,6 +6,8 @@ This script cuts straight to the point with voice commands. It is extremely fast
 
 I do have plans on adding some more basic features such as overlays and or text to speech that will allow the program to help users determine what command was executed via verbal/visual confirmation. I would like to try and keep the project as low latency as possible from voice command to keypress. So these types of features and others that I might add later like chatGPT or natural sounding text to speech ETC ETC.... Will be done in such a way that users that do not want to use features that may impact performance or latency and prefeer to work offline with the fastest latency possible from spoken command to keypress they can without these features directly impacting the users performance while turned off.
 
+## Important Documents to read
+
 Dragonfly: [https://pypi.org/project/dragonfly2/](https://pypi.org/project/dragonfly2/)
 PyDirectInput: [https://pypi.org/project/PyDirectInput/](https://pypi.org/project/PyDirectInput/)
 
