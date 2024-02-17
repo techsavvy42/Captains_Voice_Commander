@@ -81,8 +81,6 @@ def save_command():
 
 # Double-click event handler for listbox items
 def edit_item(event):
-    global dialog_open
-    if not dialog_open:
         # Get the index of the selected item
         index = listbox.curselection()
         if index:
@@ -90,7 +88,6 @@ def edit_item(event):
             selected_item = commands[index]
             # Show popup window for editing the selected item
             edit_popup(selected_item, index)
-            dialog_open = True
 
 
 # Function to create a popup window for editing a command
@@ -100,8 +97,6 @@ def edit_popup(selected_item, index):
 
     def close_popup():
         popup.destroy()
-        global dialog_open
-        dialog_open = False
 
     # Entry fields for editing the command
     command_var.set(selected_item["command"])
@@ -142,8 +137,6 @@ def delete_command(selected_item, index, popup):
         json.dump(commands, f, indent=4)
     update_listbox()  # Update the listbox after deleting the command
     popup.destroy()
-    global dialog_open
-    dialog_open = False
 
 
 # Function to save changes made in the popup window
@@ -159,8 +152,6 @@ def save_changes(selected_item, index, popup):
         json.dump(commands, f, indent=4)
     update_listbox()  # Update the listbox with the modified command
     popup.destroy()
-    global dialog_open
-    dialog_open = False
 
 
 # Function to save the Wake Word setting to a JSON file
@@ -546,8 +537,6 @@ press_time_entry.grid(row=3, column=1)
 save_button = tk.Button(root, text="Add New Command", command=save_command)
 save_button.grid(row=4, column=0, columnspan=2)
 
-# Variable to track if a dialog box is open
-dialog_open = False
 
 wake_word, wake_word_enabled, pushto_talk_enabled = load_wake_word()
 old_wake_word = wake_word
