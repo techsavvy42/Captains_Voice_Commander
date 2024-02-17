@@ -1,0 +1,87 @@
+[
+    {
+        "command": "warp",
+        "keybind": "b",
+        "press_time": 1.0
+    },
+    {
+        "command": "retract wings",
+        "keybind": "k",
+        "press_time": 0.0
+    },
+    {
+        "command": "landing gear",
+        "keybind": "n",
+        "press_time": 0.0
+    },
+    {
+        "command": "close doors",
+        "keybind": ";",
+        "press_time": 0.0
+    },
+    {
+        "command": "open doors",
+        "keybind": ";",
+        "press_time": 0.0
+    },
+    {
+        "command": "engine off",
+        "keybind": "i",
+        "press_time": 0.0
+    },
+    {
+        "command": "engine on",
+        "keybind": "i",
+        "press_time": 0.0
+    },
+    {
+        "command": "power on",
+        "keybind": "u",
+        "press_time": 0.0
+    },
+    {
+        "command": "power off",
+        "keybind": "u",
+        "press_time": 0.0
+    },
+    {
+        "command": "request landing",
+        "keybind": "\\",
+        "press_time": 0.0
+    },
+    {
+        "command": "target",
+        "keybind": "9",
+        "press_time": 0.0
+    },
+    {
+        "command": "lights on",
+        "keybind": "l",
+        "press_time": 0.0
+    },
+    {
+        "command": "lights off",
+        "keybind": "l",
+        "press_time": 0.0
+    },
+    {
+        "command": "warp drive",
+        "keybind": "b",
+        "press_time": 0.0
+    },
+    {
+        "command": "jarvis open trade tools",
+        "keybind": "https://sc-trade.tools/home",
+        "press_time": 0.0
+    },
+    {
+        "command": "jarvis open google",
+        "keybind": "https://www.google.com/",
+        "press_time": 0.0
+    },
+    {
+        "command": "jarvis open snare plan",
+        "keybind": "https://snareplan.dolus.eu/",
+        "press_time": 0.0
+    }
+]

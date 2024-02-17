@@ -1,0 +1,7 @@
+{
+    "wake_word": "jarvis",
+    "wake_word_enabled": true,
+    "microphone": "Microphone (2- BIGFOOT)",
+    "pushto_talk_enabled": false,
+    "pushto_talk_button": "w"
+}
