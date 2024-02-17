@@ -54,7 +54,7 @@ You can use the application's GUI to add or remove commands, as well as change y
 
 ## Example Commands
 
-![Alt text](https://imgur.com/BznMYOG)
+![Alt text](https://i.imgur.com/BznMYOG.png)
 
 ## Known Issues
 
