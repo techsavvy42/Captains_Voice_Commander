@@ -6,11 +6,6 @@ This script cuts straight to the point with voice commands. It is extremely fast
 
 I do have plans on adding some more basic features such as overlays and or text to speech that will allow the program to help users determine what command was executed via verbal/visual confirmation. I would like to try and keep the project as low latency as possible from voice command to keypress. So these types of features and others that I might add later like chatGPT or natural sounding text to speech ETC ETC.... Will be done in such a way that users that do not want to use features that may impact performance or latency and prefeer to work offline with the fastest latency possible from spoken command to keypress they can without these features directly impacting the users performance while turned off.
 
-## Important Documents to read
-
-Dragonfly: [https://pypi.org/project/dragonfly2/](https://pypi.org/project/dragonfly2/)
-PyDirectInput: [https://pypi.org/project/PyDirectInput/](https://pypi.org/project/PyDirectInput/)
-
 ## Features
 
 - **Custom Voice Commands:** Define your own voice commands and keybindings for controlling your computer.
@@ -67,6 +62,11 @@ You can use the application's GUI to add or remove commands, as well as change y
 - The speech recognition may not be 100% accurate in all environments. Adjustments to the microphone sensitivity or environment may be necessary for optimal performance. You can also train your voice using the Windows voice speech recognition on your computer; this can help as well.
 - The browser function is in testing and quite buggy right now and not fully implemented, so use it at your own risk. It may or may not work for you.
 - The program CURRENTLY only supports a single keybind per voice command. I will be working on adding multi keybinds in the future so that you can do commands such as Alt + F for example. Eventually full on support for chain commands such as 'Alt + F*1.0 second delay*Alt + S*1.0 second delay*Alt + B'
+
+## Important Documents to read
+
+Dragonfly: [https://pypi.org/project/dragonfly2/](https://pypi.org/project/dragonfly2/)
+PyDirectInput: [https://pypi.org/project/PyDirectInput/](https://pypi.org/project/PyDirectInput/)
 
 ## License
 
