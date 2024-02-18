@@ -24,6 +24,10 @@ I do have plans on adding some more basic features such as overlays and or text 
 - Keyboard (install via `pip install keyboard`)
 
 ## Installation
+Download the window version here:
+[Download for Windows 0.0.1](https://github.com/techsavvy42/Captains_Voice_Commander/raw/0.0.1-Windows/CaptainsVoiceCommander.zip?download=)
+
+OR
 
 1. Clone the repository:
 
