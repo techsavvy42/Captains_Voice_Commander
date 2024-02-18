@@ -62,6 +62,7 @@ You can use the application's GUI to add or remove commands, as well as change y
 - The speech recognition may not be 100% accurate in all environments. Adjustments to the microphone sensitivity or environment may be necessary for optimal performance. You can also train your voice using the Windows voice speech recognition on your computer; this can help as well.
 - The browser function is in testing and quite buggy right now and not fully implemented, so use it at your own risk. It may or may not work for you.
 - The program CURRENTLY only supports a single keybind per voice command. I will be working on adding multi keybinds in the future so that you can do commands such as Alt + F for example. Eventually full on support for chain commands such as 'Alt + F*1.0 second delay*Alt + S*1.0 second delay*Alt + B'
+- The program will not run and will automatically close If their is no microphone plugged into the computer/system. So make sure you have a microphone plugged in or detected in windows.
 
 ## Important Documents to read
 
