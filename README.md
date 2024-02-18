@@ -63,6 +63,7 @@ You can use the application's GUI to add or remove commands, as well as change y
 - The browser function is in testing and quite buggy right now and not fully implemented, so use it at your own risk. It may or may not work for you.
 - The program CURRENTLY only supports a single keybind per voice command. I will be working on adding multi keybinds in the future so that you can do commands such as Alt + F for example. Eventually full on support for chain commands such as 'Alt + F*1.0 second delay*Alt + S*1.0 second delay*Alt + B'
 - The program will not run and will automatically close If their is no microphone plugged into the computer/system. So make sure you have a microphone plugged in or detected in windows.
+- You must run the program in admin mode/give it admin privledges otherwise directX games like Star citizen will not respond to key inputs. SO MAKE SURE TO RUN THE PROGRAM AS ADMINISTRAOR
 
 ## Important Documents to read
 
