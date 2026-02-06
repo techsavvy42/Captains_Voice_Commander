@@ -1,3 +1,7 @@
+Currently conducting a 2.0.0 beta for free by getting users input, and updating the program to a much more mature state for open source. to join check out the website at https://captainsvoicecommander.vercel.app/
+
+or join our discord at https://discord.gg/NzKXJCURdF
+
 # Captain's Voice Commander
 
 This Python script utilizes Dragonfly for speech recognition on Windows and pydirectinput for direct input into DirectX games, such as Star Citizen, which this project is originally based on and was created for. However, this program should work for any other program/DirectX game if you would like.
